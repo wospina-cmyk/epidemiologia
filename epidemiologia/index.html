@@ -299,7 +299,7 @@
             <div class="city-highlight">🏭 Dades dels servidors XPVCA, Meteocat i SIVIC</div>
         </div>
         <p style="margin-top: 20px; font-size: 1.1rem; background: rgba(46, 125, 94, 0.1); padding: 16px 24px; border-radius: 20px;">
-            <strong>Problema clàssic:</strong> A partir del conjunt de dades diàries de qualitat de l'aire (C₆H₆, CO, NO, NO₂, NOX, O₃, SO₂) i incidència d'infeccions respiratòries (per 1000 habitants) registrades a El Prat (Sagnier) entre 2012 i 2025, es demana avaluar l'associació entre la contaminació i la salut respiratòria, calcular indicadors de risc i interpretar els pics detectats.
+            <strong>Problema clàssic:</strong> A partir del conjunt de dades diàries de qualitat de l'aire (C₆H₆, CO, NO, NO₂, NOX, O₃, SO₂) i incidència d'infeccions respiratòries (per 1000 habitants) registrades a <strong>L'Eixample (Barcelona)</strong> entre 2012 i 2025, es demana avaluar l'associació entre la contaminació i la salut respiratòria, calcular indicadors de risc i interpretar els pics detectats.
         </p>
     </div>
 
@@ -370,7 +370,7 @@
                 \]
             </div>
             <p>Interval de confiança del 95% per al RR: \([1.06,\,1.08]\), \(p<0.001\).</p>
-            <p><strong>Conclusió:</strong> El \(RR > 1\) indica un efecte nociu. L'impacte del NO₂ elevat s'associa a un **7% més de casos** d'infeccions respiratòries. El **6.5% de la incidència** en els dies de superació és directament atribuïble a la contaminació (AR%), cosa que representa un excés de 0.13 casos per cada 1000 habitants al dia.</p>
+            <p><strong>Conclusió:</strong> El \(RR > 1\) indica un efecte nociu. L'impacte del NO₂ elevat s'associa a un **7% més de casos** d'infeccions respiratòries. El **6.5% de la incidència** en els dies de superació és directament atribuïble a la contaminació (AR%), cosa que representa un excés de 0.13 casos per cada 1000 habitants al dia. Atès que el districte de **L'Eixample compta amb uns 266.000 habitants**, això es tradueix en un excés mitjà d'uns **35 casos diaris** d'infeccions respiratòries causats exclusivament per la contaminació.</p>
         </div>
 
         <div class="step">
@@ -391,7 +391,7 @@
                 r(k) = \frac{\sum_{t=k+1}^{N} (X_{t-k} - \bar{X})(Y_t - \bar{Y})}{\sqrt{\sum (X_{t-k} - \bar{X})^2 \sum (Y_t - \bar{Y})^2}}
                 \]
             </div>
-            <p>La correlació més forta es troba a <strong>lag 0</strong>, però es manté elevada fins a lag 2. Això suggereix que l'efecte del NO₂ és immediat (irritació de vies respiratòries agudes) i persisteix de forma notable durant unes 48 hores addicionals.</p>
+            <p>La correlació més forta es troba a <strong>lag 0</strong>, pero es manté elevada fins a lag 2. Això suggereix que l'efecte del NO₂ és immediat (irritació de vies respiratòries agudes) i persisteix de forma notable durant unes 48 hores addicionals.</p>
         </div>
 
         <div class="step">
@@ -415,21 +415,21 @@
                 \text{Excés diari} = (\text{incidència pic} - \text{incidència basal}) \times \frac{\text{població}}{1000}
                 \]
                 \[
-                (5.27 - 1.38) \times 66 \approx 257 \text{ consultes extra}
+                (5.27 - 1.38) \times 266 \approx 1035 \text{ consultes extra}
                 \]
             </div>
-            <p>Per a la zona de referència d'El Prat (~66.000 habitants), un pic com el del 17 de gener suposa prop de **257 visites mèdiques addicionals en un sol dia**, el que justifica accions urgents de gestió sanitària.</p>
+            <p>Per a un districte d'alta densitat com **L'Eixample (~266.000 habitants)**, un pic com el del 17 de gener suposa prop de **1.035 visites mèdiques addicionals en un sol dia** repartides entre els CAPs de la zona, una dada punbase que justifica l'activació d'alertes sanitàries d'emergència.</p>
         </div>
 
         <div class="step">
             <div class="step-header"><span class="step-num">5</span><span style="font-size: 1.4rem; font-weight: 600;">Tendències temporals (2011-2025)</span></div>
-            <p>L'anàlisi mostra una tendència a la baixa generalitzada gràcies a les millores estructurals d'emissions:</p>
+            <p>L'anàlisi mostra una tendència a la baixa generalitzada gràcies a les millores estructurals d'emissions urbanes:</p>
             <div style="display: flex; gap: 20px; justify-content: space-around; background: rgba(46, 125, 94, 0.15); border-radius: 24px; padding: 16px; flex-wrap: wrap;">
                 <div class="text-center"><strong>2012-2019</strong><br>Incid. mitjana ≈ 1.58</div>
                 <div class="text-center"><strong>2020-2025</strong><br>Incid. mitjana ≈ 1.42</div>
                 <div class="text-center"><strong>Reducció global</strong><br><span class="text-success fw-bold">≈ 10%</span></div>
             </div>
-            <p style="margin-top: 20px;">Els mesos d'hivern (gener-febrer) concentren els valors més alts tant de NO₂ com d'incidència, confirmant el patró estacional de les infeccions de vies respiratòries agreujades per l'estabilitat atmosfèrica hivernal.</p>
+            <p style="margin-top: 20px;">Els mesos d'hivern (gener-febrer) concentren els valors més alts tant de NO₂ com d'incidència, confirmant el patró estacional de les infeccions de vies respiratòries agreujades per l'estabilitat atmosfèrica i la inversió tèrmica al centre de Barcelona.</p>
         </div>
     </div>
 
@@ -443,14 +443,14 @@
                 ✔️ <strong>Pics d'alerta:</strong> concentrats al gener de 2022 amb incidències > 5 per 1000.</p>
             </div>
             <div style="background: rgba(46, 125, 94, 0.05); border-radius: 20px; padding: 20px; border: 1px dashed #bfd9cd;">
-                <strong>🌱 Mesures recomanades:</strong> Activar protocols de reducció de trànsit durant anticiclons hivernals, reforçar l'atenció primària coordinada amb els avisos de Meteocat i impulsar les Zones de Baixes Emissions (ZBE).
+                <strong>🌱 Mesures recomanades:</strong> Activar protocols de reducció de trànsit durant anticiclons hivernals, reforçar els centres d'atenció primària (CAP) de l'Eixample coordinats amb els avisos de Meteocat i consolidar l'eficàcia de la Zona de Baixes Emissions (ZBE).
             </div>
         </div>
         <hr style="margin: 24px 0 12px; border-top: 2px solid #bdd6ca;">
         <div style="display: flex; align-items: center; gap: 18px; flex-wrap: wrap;">
-            <span style="background: #1b4e3f; color: white; padding: 6px 24px; border-radius: 60px; font-size: 0.9rem;">📍 Dades reals · El Prat (Sagnier)</span>
+            <span style="background: #1b4e3f; color: white; padding: 6px 24px; border-radius: 60px; font-size: 0.9rem;">📍 Dades reals · L'Eixample (Barcelona)</span>
             <span class="badge">🌫️ NO₂ · PM · O₃ · SO₂</span>
-            <span style="margin-left: auto; font-style: italic; font-size: 0.85rem;">Anàlisi epidemiològic · Àmbit educatiu</span>
+            <span style="margin-left: auto; font-style: italic; font-size: 0.85rem;">Anàlisi epidemiològica · Àmbit educatiu</span>
         </div>
     </div>
 
@@ -458,7 +458,7 @@
         <h2>📊 Model DLNM (Distributed Lag Non-linear Models)</h2>
         <p>Aquest model matemàtic i estadístic avançat va ser conceptualitzat originalment per <strong>Gasparrini et al. (2010)</strong> per resoldre dues dimensions complexes de l'exposició ambiental:</p>
         <ol style="padding-left: 20px; margin: 12px 0;">
-            <li><strong>La no-linealitat:</strong> Un augment de 5 µg/m³ de NO₂ no té el mateix impacte biològic si es passa de 5 a 10 que si es passa de 40 a 45 µg/m³. El risc descriu una corba, no una recta.</li>
+            <li><strong>La no-linealitat:</strong> Un augment de 5 µg/m³ de NO₂ no té el maateix impacte biològic si es passa de 5 a 10 que si es passa de 40 a 45 µg/m³. El risc descriu una corba, no una recta.</li>
             <li><strong>L'efecte retardat (Lag):</strong> La contaminació atmosfèrica no actua de manera instantània en tots els individus; pot existir un decalatge (retard) d'entre 0 i 14 dies abans de manifestar-se en l'ingrés o consulta mèdica.</li>
         </ol>
         <p class="footnote">
